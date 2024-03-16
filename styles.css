@@ -1,0 +1,45 @@
+.container {
+    background-color: #f8f8f8; /*  фон */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc; /* Рамка*/
+    border-radius: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #666;
+}
+
+.image {
+    margin-top: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.contact-box,
+.service-box {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.service-box {
+    margin-left: 20px;
+    margin-right: 20px;
+}
