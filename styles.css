@@ -1,45 +1,78 @@
+/* менюшка */
 .container {
-    background-color: #f8f8f8; /*  фон */
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    background-color: #f8f8f8;
+    padding: 25px;
+    border: 7px solid #ccc;
+    border-radius: 9px;
 }
 
 .menu {
     background-color: #f2f2f2;
-    padding: 10px;
-    border: 1px solid #ccc; /* Рамка*/
+    padding: 15px;
+    border: 1px solid #ccc;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .menu a {
-    text-decoration: none;
-    color: #333;
-    margin-right: 20px;
+    margin-right: 10px;
+    color: #666;
+    margin-right: 10px;
 }
 
-.menu a:hover {
-    color: #666;
+
+
+/* форма регистрации + картинка */
+.container1 {
+    display: flex;
 }
 
 .image {
-    margin-top: 20px;
-}
-
-.content {
-    padding: 20px;
-}
-
-.contact-box,
-.service-box {
-    background-color: #e0e0e0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 20px;
-}
-
-.service-box {
-    margin-left: 20px;
     margin-right: 20px;
+    margin-left: 20px;
 }
+
+
+
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.services {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.images_services {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.images_services > div {
+    margin: 0 10px;
+}
+
+.reviews {
+    margin-top: 20px;
+}
+
+.review p {
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.contacts-bar {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-left: auto;
+}
+
+
