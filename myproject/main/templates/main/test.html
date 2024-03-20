@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+{% load static %}
+
 <html lang="ru">
 
  <head>
  <meta charset="UTF-8">
  <title>Главная страница</title>
- <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" type="text/css" href={% static "main/css/styles.css" %}>
 </head>
 
  <body>
@@ -12,7 +14,7 @@
 
         <!-- менюшка со страницами -->
   <div class="menu">
-   <img src="logo.png" alt="Лого">
+   <img src="{% static "main/image/logo.png" %}"  alt="Лого">
    <a href="/">Домашняя страница</a>
    <a href="page2">Страница 2</a>
    <a href="page3">Страница 3</a>
@@ -49,7 +51,7 @@
   </div>
 
   <div class="image">
-   <img src="image.jpg" alt="Изображение">
+   <img src="{% static "main/image/image.jpg" %}" alt="Изображение">
   </div>
   
   
