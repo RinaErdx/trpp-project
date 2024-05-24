@@ -21,3 +21,6 @@ def page3(request):
 
 def page4(request):
     return render(request,'main/page4.html')
+
+def register(request):
+    return render(request, 'main/register.html')

@@ -3,121 +3,120 @@
 
 <html lang="ru">
 
- <head>
- <meta charset="UTF-8">
- <title>Главная страница</title>
- <link rel="stylesheet" type="text/css" href={% static "main/css/styles.css" %}>
+<head>
+   <meta charset="UTF-8">
+   <title>Главная страница</title>
+   <link rel="stylesheet" type="text/css" href={% static "main/css/styles.css" %}>
 </head>
 
- <body>
- <div class="container">
+<body>
+   <div class="container">
+         <!-- менюшка со страницами -->
+      <div class="menu">
+      <img src="{% static "main/image/logo.png" %}"  alt="Лого">
+      <a href="/">Домашняя страница</a>
+      <a href="page2">Страница 2</a>
+      <a href="page3">Страница 3</a>
+      <a href="page4">Страница 4</a>
+      <a href="register">Войти</a>
 
-        <!-- менюшка со страницами -->
-  <div class="menu">
-   <img src="{% static "main/image/logo.png" %}"  alt="Лого">
-   <a href="/">Домашняя страница</a>
-   <a href="page2">Страница 2</a>
-   <a href="page3">Страница 3</a>
-   <a href="page4">Страница 4</a>
-
-   <div class="contacts">
-    <h2>Контакты</h2>
-    <p>Телефон: +123456789</p>
-    <p>Email: mosit_top.com</p>
-    <p>Адрес: ул. Приколов, 123</p>
+      <div class="contacts">
+         <h2>Контакты</h2>
+         <p>Телефон: +123456789</p>
+         <p>Email: mosit_top.com</p>
+         <p>Адрес: ул. Приколов, 123</p>
+      </div>
+      </div>
    </div>
-  </div>
 
- </div>
+      <!-- Анимация -->
+   <div class="animation">
+         <!-- Я не знаю как добавлять анимацию это надо через django делать -->
+   </div>
 
-    <!-- Анимация -->
- <div class="animation">
-        <!-- Я не знаю как добавлять анимацию это надо через django делать -->
- </div>
+   <div class="text">
+   <p>Дополнительный текст о том насколько крут наш спа-салон...</p>
+   <p>много текста.</p>
+   <p>много текста.</p>
+   <p>много текста.</p>
+   <p>много текста.</p>
+   <p>много текста.</p>
+   </div>
 
- <div class="text">
-  <p>Дополнительный текст о том насколько крут наш спа-салон...</p>
-  <p>много текста.</p>
-  <p>много текста.</p>
-  <p>много текста.</p>
-  <p>много текста.</p>
-  <p>много текста.</p>
- </div>
-
- <div class="container1">
-  <div class="left-content">
+   <div class="container1">
+   <div class="left-content">
    <h2>Мы это принципиально новый спа салон!</h2>
    <p>Комфорт клиентов для нас на первом месте!</p>
-  </div>
+   </div>
 
-  <div class="image">
+   <div class="image">
    <img src="{% static "main/image/image.jpg" %}" alt="Изображение">
-  </div>
-  
-  
-  <!-- Форма ввода -->
-  <div class="form">
+   </div>
+
+
+   <!-- Форма ввода -->
+   <div class="form">
    <h2>Добро пожаловать!</h2>
    <p>Заполните форму ниже:</p>
    <input type="text" placeholder="Имя">
    <input type="email" placeholder="Email">
    <a href="user_home">Перейти в личный кабинет</a>
-   
-   
-  </div>
- </div>
-  <div class="container2">
+
+
+   </div>
+   </div>
+   <div class="container2">
    <div class="services">
-    <h2>Что мы предлагаем:</h2>
-    <p>Тут наши услуги (надо что-нибудь сюда написать)</p>
+      <h2>Что мы предлагаем:</h2>
+      <p>Тут наши услуги (надо что-нибудь сюда написать)</p>
    </div>
 
    <div class="images_services">
-    <div class="image1">
-     <img src="image1.jpg" alt="Изображение">
-    </div>
-    <div class="image2">
-     <img src="image2.jpg" alt="Изображение">
-    </div>
-    <div class="image3">
-     <img src="image3.jpg" alt="Изображение">
-    </div>
+      <div class="image1">
+      <img src="image1.jpg" alt="Изображение">
+      </div>
+      <div class="image2">
+      <img src="image2.jpg" alt="Изображение">
+      </div>
+      <div class="image3">
+      <img src="image3.jpg" alt="Изображение">
+      </div>
    </div>
-  </div>
+   </div>
 
 
 
-  <div class="reviews">
+   <div class="reviews">
    <p>Вот что о нас думают клиенты:</p>
    <div class="review">
-    <p>Отзыв 1</p>
-    <p>Отзыв 2</p>
-    <p>Отзыв 3</p>
+      <p>Отзыв 1</p>
+      <p>Отзыв 2</p>
+      <p>Отзыв 3</p>
    </div>
-  </div>
+   </div>
 
 
 
 
-    <!-- Плашка с контактами и ссылками на соцсети -->
- <div class="contacts-bar">
-  <p>Телефон: +123456789</p>
-  <p>Email: mosit_top.com</p>
-  <p>Адрес: ул. Приколов, 123</p>
-  <div class="schedule">
+      <!-- Плашка с контактами и ссылками на соцсети -->
+   <div class="contacts-bar">
+   <p>Телефон: +123456789</p>
+   <p>Email: mosit_top.com</p>
+   <p>Адрес: ул. Приколов, 123</p>
+   <div class="schedule">
    <p>График работы :</p>
    <p>Никогда!!!!!!</p>
-  </div>
-  <div class="social-links">
+   </div>
+   <div class="social-links">
             <!-- Ссылки на соцсети, их нет -->
-  </div>
- </div>
+   </div>
+   </div>
 
 
 
-  <footer>
+   <footer>
    <p>&copy; 2024 Спа-салон. Все права защищены.</p>
-  </footer>
+   </footer>
 </body>
 
 </html>
