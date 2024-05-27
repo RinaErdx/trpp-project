@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Lora');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One:300,400|Lora');
 
+*{
+  font-family: 'Poiret One', cursive;
+  list-style: none;
+  text-decoration: none;
+}
 
 
 body {
-  background: #cbc0d3;
+  background: #22203e;
 }
 
 .container {
@@ -14,7 +19,7 @@ body {
 }
 
 .welcome {
-  background: #f6f6f6;
+  background: #929be8;
   width: 650px;
   height: 415px;
   position: absolute;
@@ -27,11 +32,11 @@ body {
   position: absolute;
   top: -10%;
   left: 5%;
-  background: #eac7cc;
+  background: #555994;
   width: 320px;
   height: 500px;
   border-radius: 5px;
-  box-shadow: 2px 0 10px rgba(0,0,0,.1);
+  box-shadow: 2px 0 10px rgb(80, 84, 93);
   transition: all .5s ease-in-out;
   z-index: 2;
 }
@@ -66,13 +71,13 @@ h1 {
   text-align: center;
   margin-top: 95px;
   text-transform: uppercase;
-  color: #f6f6f6;
+  color: #929be8;
   font-size: 2em;
   letter-spacing: 8px;
 }
 
 .title {
-  color: #8e9aaf;
+  color: #22203e;
   font-size: 1.8em;
   line-height: 1.1em;
   letter-spacing: 3px;
@@ -90,12 +95,12 @@ h1 {
 p {
   font-size: .7em;
   letter-spacing: 2px;
-  color: #8e9aaf;
+  color: #22203e;
   text-align: center;
 }
 
 span {
-  color: #eac7cc;
+  color: #22203e;
 }
 
 /* это для картиночки но я не нашла красивую
@@ -130,8 +135,8 @@ button {
 
 .button {
   margin-top: 3%;
-  background: #f6f6f6;
-  border: solid 1px #eac7cc;
+  background: #929be8;
+  border: solid 1px #22203e;
 }
 
 
@@ -156,21 +161,21 @@ form {
 }
 
 input {
-  background: #eac7cc;
+  background: #929be8;
   width: 65%;
   border: none;
-  border-bottom: 1px solid rgba(#f6f6f6, 0.5);
+  border-bottom: 1px solid rgba(#22203e, 0.5);
   padding: 9px;
   margin: 7px;
   &::placeholder {
-    color: rgba(#f6f6f6, 1);
+    color: rgba(#22203e, 1);
     letter-spacing: 2px;
     font-size: 1.3em;
     font-weight: 100;
   }
   &:focus {
     outline: none;
-    border-bottom: 1.2px solid rgba(#cbc0d3, 0.7);
+    border-bottom: 1.2px solid rgba(#22203e, 0.7);
     font-size: 1em;
     transition: .8s all ease;
     &::placeholder {
@@ -187,10 +192,10 @@ label {
 
 input[type=checkbox] {
   width: 7px;
-  background: #cbc0d3;
+  background: #22203e;
 }
 
 .checkbox input[type="checkbox"]:checked + label {
-  color: #cbc0d3;
+  color: #22203e;
   transition: .5s all ease;
 }
