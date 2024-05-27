@@ -11,5 +11,6 @@ urlpatterns = [
     path('page3', views.page3),
     path('page4', views.page4),
     
-    path('register', views.register)
+    path('register', views.register),
+    
 ]
